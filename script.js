@@ -30,7 +30,7 @@ function populateMembers(where, members) {
     const pName = document.createElement("p");
     const divBio = document.createElement("div");
 
-    img.src = window.location.href + `/assets/profile/${member.name}.webp`;
+    img.src = window.location.href + `/assets/profile/${member.name}.png`;
     img.onerror = () => img.src = window.location.href + `/assets/profile/default.png`;
     img.alt = member.name;
     img.className = "member-pfp";
